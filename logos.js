@@ -23,8 +23,8 @@ function initSliderLogoHover() {
 
     // Set initial states with GSAP
     gsap.set(logo, {
-      // Adjust filter to reduce effect on white backgrounds
-      filter: "brightness(85%) saturate(100%) invert(5%) sepia(60%) saturate(600%) hue-rotate(30deg) brightness(95%) contrast(100%)", // Reduced invert, increased sepia/saturation slightly
+      // Use the filter from the original example, adjusted hue-rotate
+      filter: "brightness(75%) saturate(75%) invert(20%) sepia(100%) saturate(50%) hue-rotate(30deg) brightness(100%) contrast(95%)",
       opacity: 1,
     });
 
